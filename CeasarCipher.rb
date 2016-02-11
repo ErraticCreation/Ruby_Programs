@@ -1,3 +1,5 @@
+# A method that takes a string and an integer, which shifts the indivdual alphanumeric characters by the integer value.
+
 def caesar_cipher(str, int)
   i = 0
   num = str.length
@@ -23,3 +25,7 @@ def caesar_cipher(str, int)
 end
 
 caesar_cipher("What a string!", 5)
+# Returns the value "Bmfy f xywnsl!"
+
+# caesar_cipher("This will shift thirteen characters!", 13)
+# Returns the value "Guvf jvyy fuvsg guvegrra punenpgref!"
